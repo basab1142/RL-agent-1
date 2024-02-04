@@ -5,3 +5,11 @@ This repository goes through the process of building an RL agent using `Deep-Q-L
 Notebook contains the build code. It's presented in such a manner that should be easily understandable
 ### Let's look at the DQN architecture
 <img title="DQN" alt="" src="DQN.png">
+
+As shown above DQN uses 2 networks 
+ * Policy Network
+ * Target Network
+
+Checkout the notebook to know more
+
+## TODO: Frame a pygame that uses the trained DQN model 
