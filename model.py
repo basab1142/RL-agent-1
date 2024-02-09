@@ -133,5 +133,5 @@ def training(model = model, target_model = target_model,EPSILON = EPSILON, EPSIL
             target_model.load_state_dict(model.state_dict())
             print(f" {epoch} : DONES = {num_done}")    
 
-# Train the model
-training(model, target_model,EPSILON,EPSILON_REDUCE,EPOCHS = 600)                        
+# Train the model [Uncomment to train]
+#training(model, target_model,EPSILON,EPSILON_REDUCE,EPOCHS = 600)                        
