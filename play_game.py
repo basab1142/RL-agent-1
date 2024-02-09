@@ -5,6 +5,9 @@ from enum import Enum
 from collections import namedtuple
 import numpy as np
 Mymodel = CaveNet() 
+import torch
+PATH = 'model/model_4.pth'
+Mymodel.load_state_dict(torch.load(PATH))
 
 pygame.init()
 font = pygame.font.Font('arial.ttf', 25)
