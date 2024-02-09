@@ -12,4 +12,6 @@ As shown above DQN uses 2 networks
 
 Checkout the notebook to know more
 
-## TODO: Frame a pygame that uses the trained DQN model 
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
