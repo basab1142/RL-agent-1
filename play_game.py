@@ -30,7 +30,7 @@ BLACK = (0,0,0)
 GREEN = (0, 255, 0)
 
 BLOCK_SIZE = 20
-SPEED = 1
+SPEED = 20
 
 class SnakeGame:
     
@@ -209,7 +209,7 @@ if __name__ == '__main__':
     # game loop
     while True:
         game_over, score = game.play_step()
-        print(game.getFeature())
+        #print(game.getFeature())
         if game_over == True:
             break
         
