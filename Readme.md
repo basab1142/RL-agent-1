@@ -13,5 +13,5 @@ As shown above DQN uses 2 networks
 Checkout the notebook to know more
 
 <video width="320" height="240" controls>
-  <source src="video.mp4" type="video/mp4">
+  <source src="https://github.com/basab1142/RL-agent-1/blob/master/video.mp4" type="video/mp4">
 </video>
