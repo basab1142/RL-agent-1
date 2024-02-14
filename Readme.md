@@ -12,4 +12,7 @@ As shown above DQN uses 2 networks
 
 Checkout the notebook to know more
 
+### POLICY GRADIENT [UPDATE]
+Along with DQN(Value based method ) I have also added game play using policy based method (Estimates policy directly)
+
 ![](https://github.com/basab1142/RL-agent-1/blob/master/game_gif.gif)
